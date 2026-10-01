@@ -1,0 +1,63 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python package/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / lint / type-check caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local databases / runtime data
+*.db
+*.sqlite
+*.sqlite3
+
+# Models / large local AI files
+models/
+*.gguf
+*.safetensors
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
